@@ -1145,8 +1145,6 @@ footer {
 }
 
 .opt {
-    /* display: none; */
-
     >.opt1>div>h1 {
         color: var(--Text-Color-Main-text, #141414);
         text-align: center;
@@ -1162,9 +1160,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* margin-left: 5px; */
         margin-top: -6px;
-        /* border: 1px solid red; */
     }
 
     >.opt1>p {
@@ -1220,58 +1216,6 @@ footer {
     }
 
 
-    .m-testing {
-        border-radius: 24px;
-        border: 0.5px solid var(--Primary-400, #005AE2);
-        backdrop-filter: blur(106px);
-        background: linear-gradient(89deg, rgba(226, 233, 240, 0.50) 30.68%, rgba(220, 228, 235, 0.30) 40.01%, rgba(226, 233, 240, 0.00) 50.0%);
-        display: inline-flex;
-        flex-direction: column;
-        gap: 16px;
-        width: 400px;
-        margin-inline: 12px;
-        margin-block-start: 20px;
-
-        >.img-logo>div img {
-            display: inline;
-            margin: -6px;
-        }
-
-        >.img-logo {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-
-        }
-
-        >.img-logo>.middle {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 0px;
-            stroke-width: 2px;
-            stroke: var(--Primary-400, #005AE2);
-        }
-
-        >div>p {
-            /* width: 562px; */
-            height: auto;
-            text-align: center;
-            align-self: stretch;
-            padding-inline: 20px;
-
-            color: var(--Text-Color-Main-text, #141414);
-            text-align: center;
-            font-family: Gilroy-Medium;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 24px;
-        }
-
-    }
 
     >.M-El-Re {
         margin-top: 15px;
@@ -1796,7 +1740,7 @@ footer {
 }
 
 
-@media(max-width:767px) {
+@media(max-width:768px) {
 
     .mobile-display {
         display: block;
